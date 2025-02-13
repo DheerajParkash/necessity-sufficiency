@@ -191,14 +191,17 @@
 1. How do necessity and sufficiency metrics perform in other NLP tasks, such as sentiment analysis, fake news detection, or toxicity detection?
 	* Apply the same methodology (generating perturbations and calculating necessity/sufficiency) to a new task.
 	* For example, in sentiment analysis, you could test how necessary/sufficient certain words (e.g., "love", "hate") are for positive/negative predictions.
+
 1.1 How necessary/sufficient are certain words or phrases (e.g., "government", "hoax") for fake news detection?
 	* Use a fake news dataset (e.g., LIAR or FakeNewsNet) and train a classifier.
 	* Apply the perturbation method to calculate necessity/sufficiency scores for key terms.
 	* Analyze whether the metrics reveal biases (e.g., over-reliance on certain phrases).
+
 1.2 How necessary/sufficient are identity terms (e.g., racial slurs) for toxicity detection?
 	* Use a toxicity detection dataset (e.g., Jigsaw’s Toxic Comment Classification Challenge) and train a classifier.
 	* Apply the perturbation method to calculate necessity/sufficiency scores for identity terms.
 	* Compare the results with hate speech detection to see if the metrics behave similarly.
+
 1.3 How necessary/sufficient are sentiment-bearing words (e.g., "happy", "sad") for sentiment analysis predictions?
 	* Use a sentiment analysis dataset (e.g., IMDB or SST) and train a classifier.
 	* Apply the perturbation method to calculate necessity/sufficiency scores for sentiment words.
