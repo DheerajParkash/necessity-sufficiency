@@ -222,7 +222,7 @@
 	* Compare the fluency and diversity of the generated perturbations with those from GPT-2.
 	* Evaluate whether the improved perturbations lead to more accurate necessity/sufficiency scores.
 
----> work to do	
+* work to do	
 	* checking hatecheck for task specific test cases for questions 1.1,1.2,1.3 and test cases avaiable for hate and abuse in mulitple lanugaes for Quesiton 3
 	* exploring the data sets , targets/anotations , thems and dimensions. For Questions 1-task specific and  2 and 3 in hate and abuse them
 
@@ -231,7 +231,7 @@
 2. https://medium.com/geekculture/feature-attribution-in-explainable-ai-626f0a1d95e2
 3. HateCheck Code: https://github.com/paul-rottger/hatecheck-experiments also founta data available there
 4. HateCheck Data: https://github.com/paul-rottger/hatecheck-data
-
-
+5. Multi lingual: https://github.com/rewire-online/multilingual-hatecheck
+6. https://hatespeechdata.com/#English-header
 ## check on 
 * Our method can be used with any generator that can model the data distribution conditioned on the label.
