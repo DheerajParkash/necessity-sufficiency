@@ -231,7 +231,7 @@
 2. https://medium.com/geekculture/feature-attribution-in-explainable-ai-626f0a1d95e2
 3. HateCheck Code: https://github.com/paul-rottger/hatecheck-experiments also founta data available there
 4. HateCheck Data: https://github.com/paul-rottger/hatecheck-data
-
-
+5. Multi lingual: https://github.com/rewire-online/multilingual-hatecheck
+6. https://hatespeechdata.com/#English-header
 ## check on 
 * Our method can be used with any generator that can model the data distribution conditioned on the label.
